@@ -143,7 +143,7 @@ def user_signup_complete():
             password_error = err_reenter_pw
             password_validate_error = err_reenter_pw
         elif not email_at_symbol_more_than_one(email):
-            email_error = "Email must contain only one @ symbol"
+            email_error = "Emails normally only have 1 @ symbol"
             password = ''
             password_validate = ''
             password_error = err_reenter_pw
@@ -155,7 +155,7 @@ def user_signup_complete():
             password_error = err_reenter_pw
             password_validate_error = err_reenter_pw
         elif not email_period_more_than_one(email):
-            email_error = "Email must contain only one ."
+            email_error = "Yikes only 1 ".""
             password = ''
             password_validate = ''
             password_error = err_reenter_pw
